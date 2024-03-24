@@ -1,6 +1,7 @@
 import { AppBar, IconButton, ThemeProvider, Toolbar, createTheme, styled, Button, Drawer, List, ListItemButton, ListItemText } from '@mui/material'
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
+import './Navbar.component.css'
 // import { Menu as MenuIcon } from '@mui/icons-material'
 
 const theme = createTheme({
@@ -38,7 +39,7 @@ const Navbar = () => {
           <IconButton color='inherit' onClick={toggleDrawer}>
               <MenuIcon />
           </IconButton>
-          <div className='Nav-buttons'>
+          <div className='nav-buttons'>
               <StyldeButton>Home</StyldeButton>
               <StyldeButton>Acerca de nosotros</StyldeButton>
               <StyldeButton>Contáctanos</StyldeButton>
