@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Button from '@mui/material/Button';
-import Header from './components/header/Header.component'
+import Navbar from './components/Navbar/Navbar.component'
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Navbar />
     </div>
   );
 }

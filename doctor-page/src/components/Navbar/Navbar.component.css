@@ -1,0 +1,9 @@
+.nav-buttons {
+    display: flex;
+}
+
+@media (max-width: 420px) {
+    .nav-buttons {
+        display: none !important;
+    }
+}
