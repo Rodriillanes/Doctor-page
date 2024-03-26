@@ -6,7 +6,7 @@ import './Navbar.component.css'
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
   },
 });
 
