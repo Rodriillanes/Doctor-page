@@ -1,23 +1,11 @@
 import { Box, Button, Container, TextField, Typography } from '@mui/material'
 import React from 'react'
+import './ContactForm.component.css'
 
 const ContactForm = () => {
     return(
-        <Container sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            minHeight: '100vh'
-        }}>
-            <Typography sx={{
-                fontSize: '3rem',
-                textAlign: 'center',
-                marginBottom: '2rem',
-                '@media (max-width:442px)':{
-                    fontSize: '1.5rem',
-                },
-            }}>
+        <Container className='form'>
+            <Typography className='contact'>
                 Contáctanos
             </Typography>
             <Box 
@@ -58,17 +46,7 @@ const ContactForm = () => {
                     inputProps={{style:{color: 'black'}}}
                     InputLabelProps={{style:{color: 'black'}}}>
                 </TextField>
-                <Button
-                    sx={{
-                        backgroundColor: 'gray',
-                        color: 'white',
-                        marginTop: '1rem',
-                        transition: 'transform 0.3 s',
-                        '&:hover': {
-                            transform: 'scale(1.05)',
-                            backgroundImage: 'linear-gradient(to bottom, #003eff, #006eff)',
-                        }
-                    }}>
+                <Button>
                     Enviar
                 </Button>
             </Box>

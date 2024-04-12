@@ -8,16 +8,17 @@ import AboutUs from './components/AboutUs/AboutUs.component';
 import ContactForm from './components/ContactForm/ContactForm.component';
 import Footer from './components/Footer/Footer.component';
 
-const theme = createTheme({
-  typography: {
-    fontFamily: 'Montserrat'
-  },
-})
+// const theme = createTheme({
+//   typography: {
+//     fontFamily: 'Roboto'
+//   },
+// })
 
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
+  <div>
       <Box>
         <Navbar />
         <Home />
@@ -25,7 +26,7 @@ function App() {
         <ContactForm />
         <Footer />
       </Box>
-    </ThemeProvider>
+    </div>
   );
 }
 

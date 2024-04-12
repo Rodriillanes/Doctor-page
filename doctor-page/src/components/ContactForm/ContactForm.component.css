@@ -1,0 +1,29 @@
+.form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+}
+
+.contact {
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+}
+@media (max-width:442px){
+        .contact{
+                font-size: 1.5rem;
+        } 
+}
+
+Button {
+        background-color: 'gray';
+        color: white;
+        margin-top: 1rem;
+        transition: transform 0.3s;
+}
+Button:hover {
+        transform: scale(1.05);
+        background-Image: linear-gradient(to bottom, #003eff, #006eff);
+}

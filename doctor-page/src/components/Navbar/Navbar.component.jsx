@@ -2,7 +2,6 @@ import { AppBar, IconButton, ThemeProvider, Toolbar, createTheme, styled, Button
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.component.css'
-// import { Menu as MenuIcon } from '@mui/icons-material'
 
 const theme = createTheme({
   palette: {
@@ -19,6 +18,7 @@ const StyldeButton = styled(Button) ({
   fontWeight: 'bold',
   boxShadow: 'none',
   transition: 'transform 0.3s',
+  fontFamily: 'Roboto',
   '&:hover':{
     transform: 'scale(1.05)',
     backgroundImage: 'linear-gradient(to bottom, #003eff, #003eff)',

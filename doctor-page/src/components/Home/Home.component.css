@@ -1,0 +1,26 @@
+.container {
+    margin-top: 6rem;
+    padding: 1rem;
+    max-Width: 100%;
+    overflow: hidden;
+}
+
+.welcome {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    .welcome {
+      font-size: 1.5rem;
+    }
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
